@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Design Anything</title>
+    <title>Design Anything - Home</title>
 </head>
 <body>
     
@@ -19,12 +19,12 @@
         </div>
     </header>
 
-    <section class="intro">
+    <section class="intro" id="home">
         <p>A free tool and resource site for your day-to-day design needs. No need to look further.</p>
         <button class="sign-up">Sign Up</button>
     </section>
 
-    <section class="profile">
+    <section class="profile" id="about">
         <p>You can rely on our world-renowed designers to provide you with top-class designs 
             and design resources for that project of yours.</p> 
         <p>Here are our top designers for the year 2020.</p>
@@ -48,30 +48,39 @@
         
     </section>
 
-    <section class="add-info">
-        <p>We regularly create and make available to our customers
-            thousands of design resources. We warmly
-            welcome suggestions from our customers as well.
-        </p>
-        <img src="imgs/adobe-xd.png" alt="resource-logo">
-        <img src="imgs/photoshop.png" alt="resource-logo">
+    <section class="add-info" id="resources">
+        <div class="left-img">
+            <img src="imgs/relaxing.png" alt="section photo">
+        </div>
+        <div class="info-desc">
+            <p>We regularly create and make available to our customers
+                thousands of design resources. We warmly
+                welcome suggestions from our customers as well.
+            </p>
+            <div class="info-img">
+                <img src="imgs/adobe-xd.png" alt="resource-logo">
+                <img src="imgs/photoshop.png" alt="resource-logo">
+            </div>  
+        </div>
+       
+        
     </section>
 
-    <section class="final-desc">
-        <p>Have you been convinced? Sign up now</p>
+    <section class="final-desc" id="terms">
+        <p>Have you been convinced? Join us now</p>
         <button class="started">Get Started</button>
     </section>
 
     <footer>
         <div class="copy">
-            &copy;2020 LifelikeDev
+            &copy; 2020 LifelikeDev
         </div>
         <div class="footer-links">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Resources</a></li>
-                <li><a href="">Terms</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#terms">Terms</a></li>
             </ul>
         </div>
     </footer>
