@@ -279,6 +279,11 @@ footer .footer-links {
   section.profile p:nth-child(2) {
     font-size: 1.9em;
   }
+  section.add-info p {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    margin-bottom: 0;
+  }
   .info-desc {
     width: 50%;
   }
@@ -286,6 +291,57 @@ footer .footer-links {
     font-size: 1.5em;
   }
   .info-img {
-    margin-left: -9em;
+    margin-left: -7em;
+  }
+}
+@media screen and (max-width: 680px) {
+  .info-desc {
+    width: 45%;
+  }
+  section.add-info p {
+    font-size: 1.6em;
+    line-height: 1.4em;
+  }
+  .left-img {
+    width: 50%;
+  }
+  .left-img img {
+    width: 30em;
+    margin-left: -10em;
+  }
+  .info-img {
+    margin-left: -7em;
+  }
+  .info-img img:first-child {
+    width: 9em;
+    height: 6em;
+  }
+  .info-img img:last-child {
+    width: 4em;
+    height: 4em;
+  }
+}
+@media screen and (max-width: 550px) {
+  section.intro {
+    height: 33em;
+    min-height: 33em;
+  }
+  section.intro p {
+    font-size: 1.7em;
+  }
+  section.profile {
+    height: 50em;
+    min-height: 50em;
+  }
+  section.profile p:first-child,
+  section.profile p:nth-child(2) {
+    font-size: 1.6em;
+  }
+  section.profile .staff {
+    display: flex;
+    flex-direction: column;
+  }
+  section.final-desc p {
+    font-size: 1.6em;
   }
 }
